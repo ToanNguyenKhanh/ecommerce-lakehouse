@@ -1,0 +1,10 @@
+storage:
+  endpoint: minio:9000
+  bucket_name: batch
+  folder_name: ecommerce
+  folders:
+    bronze: bronze
+    silver: silver
+    gold: gold
+  access_key: minio_access_key
+  secret_key: minio_secret_key
